@@ -16,7 +16,7 @@
         font-family: Arial, sans-serif; /* Font mặc định */
         text-align: center; /* Căn giữa toàn bộ nội dung */
         margin: 0;
-        height: 100vh; /* Full chiều cao trang */
+        height: 50vh; /* Full chiều cao trang */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -32,6 +32,9 @@
 
       model-viewer {
         width: 50%; /* Đặt chiều rộng mô hình là 80% chiều rộng cửa sổ */
+        height: 50%; /* Đặt chiều cao mô hình là 80% chiều cao cửa sổ */
+        max-width: 100%; /* Đảm bảo mô hình không vượt quá chiều rộng */
+        max-height: 100%; /* Đảm bảo mô hình không vượt quá chiều cao */
       }
       
     </style>
