@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get that nose away from me</title>
+    <title>CAN I EAT IT?</title>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     <style>
@@ -11,6 +11,19 @@
         font-family: 'BeVietnamPro';
         src: url('BeVietnamPro-Bold.ttf') format('truetype');
       }
+
+      .background-image {
+      background-image: url("https://phuongdang104.github.io/ar_blume/bahn.jpg"); /* Thay 'your_image.jpg' bằng đường dẫn tới hình ảnh của bạn */*/
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
 
       body {
         font-family: Arial, sans-serif; /* Font mặc định */
@@ -26,17 +39,17 @@
 
       h2 {
         font-family: 'BeVietnamPro', sans-serif; /* Áp dụng font Be Viet Pro */
-        font-size: 32px;
+        font-size: 50px;
         color: #333;
       }
 
       model-viewer {
-        width: 50%; /* Đặt chiều rộng mô hình là 80% chiều rộng cửa sổ */
-        height: 50%; /* Đặt chiều cao mô hình là 80% chiều cao cửa sổ */
+        width: 70%; /* Đặt chiều rộng mô hình là 80% chiều rộng cửa sổ */
+        height: 70%; /* Đặt chiều cao mô hình là 80% chiều cao cửa sổ */
         max-width: 100%; /* Đảm bảo mô hình không vượt quá chiều rộng */
         max-height: 100%; /* Đảm bảo mô hình không vượt quá chiều cao */
       }
-      
+
     </style>
 
   </head>
@@ -44,12 +57,15 @@
 
 <H2>
 
-GET THAT NOSE AWAY FROM ME!
+CAN I EAT IT?
 
 </H2>
-  <model-viewer src="my_digital_body_1.glb"
-                ios-src="my_digital_body_1.usdz"
-                alt="Nose"
+
+"Can I eat it?" Yes, actually you CAN EAT everything in this world. But then there are some places that vorbidden you from eating. IM BAHN!
+
+  <model-viewer src="Can_i_eat_it_test.glb"
+                ios-src="Can_i_eat_it_test.usdz"
+                alt="Bahn"
                 ar
                 auto-rotate
                 camera-controls
